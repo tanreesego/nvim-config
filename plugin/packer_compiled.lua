@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "/Users/tanreesego/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
+  ["cmp-tabnine"] = {
+    loaded = true,
+    path = "/Users/tanreesego/.local/share/nvim/site/pack/packer/start/cmp-tabnine",
+    url = "https://github.com/tzachar/cmp-tabnine"
+  },
   cmp_luasnip = {
     loaded = true,
     path = "/Users/tanreesego/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
@@ -129,6 +134,16 @@ _G.packer_plugins = {
     path = "/Users/tanreesego/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/ThePrimeagen/harpoon"
   },
+  ["kanagawa.nvim"] = {
+    loaded = true,
+    path = "/Users/tanreesego/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
+    url = "https://github.com/rebelot/kanagawa.nvim"
+  },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/Users/tanreesego/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
   ["nord.nvim"] = {
     loaded = true,
     path = "/Users/tanreesego/.local/share/nvim/site/pack/packer/start/nord.nvim",
@@ -148,6 +163,21 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/tanreesego/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-dap"] = {
+    loaded = true,
+    path = "/Users/tanreesego/.local/share/nvim/site/pack/packer/start/nvim-dap",
+    url = "https://github.com/mfussenegger/nvim-dap"
+  },
+  ["nvim-dap-ui"] = {
+    loaded = true,
+    path = "/Users/tanreesego/.local/share/nvim/site/pack/packer/start/nvim-dap-ui",
+    url = "https://github.com/rcarriga/nvim-dap-ui"
+  },
+  ["nvim-dap-virtual-text"] = {
+    loaded = true,
+    path = "/Users/tanreesego/.local/share/nvim/site/pack/packer/start/nvim-dap-virtual-text",
+    url = "https://github.com/theHamsta/nvim-dap-virtual-text"
   },
   ["nvim-lsp-installer"] = {
     loaded = true,
