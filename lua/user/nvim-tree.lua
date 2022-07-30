@@ -42,12 +42,12 @@ nvim_tree.setup({
 		relativenumber = false,
 		signcolumn = "yes",
 		mappings = {
-			custom_only = false,
-			list = {
-				{ key = { "l", "<CR>", "o" }, cb = tree_cb("edit") },
-				{ key = "h", cb = tree_cb("close_node") },
-				{ key = "v", cb = tree_cb("vsplit") },
-			},
+			-- custom_only = false,
+			-- list = {
+			-- 	{ key = { "l", "<CR>", "o" }, cb = tree_cb("edit") },
+			-- 	{ key = "h", cb = tree_cb("close_node") },
+			-- 	{ key = "v", cb = tree_cb("vsplit") },
+			-- },
 		},
 	},
 	renderer = {
@@ -144,7 +144,7 @@ nvim_tree.setup({
 	},
 	git = {
 		enable = true,
-		ignore = true,
+		ignore = false,
 		show_on_dirs = true,
 		timeout = 400,
 	},

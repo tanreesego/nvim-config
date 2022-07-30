@@ -75,6 +75,7 @@ return packer.startup(function(use)
 	use("nvim-treesitter/nvim-treesitter", {
 		run = ":TSUpdate",
 	})
+  use("nvim-treesitter/playground")
 
 	use("mfussenegger/nvim-dap")
 	use("rcarriga/nvim-dap-ui")
@@ -87,7 +88,7 @@ return packer.startup(function(use)
 	use("nvim-telescope/telescope-media-files.nvim")
 	use("ThePrimeagen/git-worktree.nvim")
 	use("ThePrimeagen/harpoon")
-
+  use("TimUntersberger/neogit")
 	use("kyazdani42/nvim-web-devicons")
 	use("kyazdani42/nvim-tree.lua")
 	-- Automatically set up your configuration after cloning packer.nvim

@@ -144,6 +144,11 @@ _G.packer_plugins = {
     path = "/Users/tanreesego/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  neogit = {
+    loaded = true,
+    path = "/Users/tanreesego/.local/share/nvim/site/pack/packer/start/neogit",
+    url = "https://github.com/TimUntersberger/neogit"
+  },
   ["nord.nvim"] = {
     loaded = true,
     path = "/Users/tanreesego/.local/share/nvim/site/pack/packer/start/nord.nvim",
@@ -208,6 +213,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/tanreesego/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  playground = {
+    loaded = true,
+    path = "/Users/tanreesego/.local/share/nvim/site/pack/packer/start/playground",
+    url = "https://github.com/nvim-treesitter/playground"
   },
   ["plenary.nvim"] = {
     loaded = true,
