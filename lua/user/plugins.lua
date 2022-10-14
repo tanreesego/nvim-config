@@ -42,16 +42,19 @@ packer.init({
 return packer.startup(function(use)
 	-- My plugins here
 	use("wbthomason/packer.nvim") -- Have packer manage itself
+	use("sainnhe/everforest")
 	use("nvim-lua/popup.nvim") -- An implementation of the Popup API from vim in Neovim
 	use("nvim-lua/plenary.nvim") -- Useful lua functions used ny lots of plugins
 	use("windwp/nvim-autopairs") -- Autopairs, integrates with both cmp and treesitter
- use "numToStr/Comment.nvim" -- Easily comment stuff
-use 'JoosepAlviste/nvim-ts-context-commentstring'
+	use("numToStr/Comment.nvim") -- Easily comment stuff
+	use("JoosepAlviste/nvim-ts-context-commentstring")
 	-- Colorschemes
 	-- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
 	use("lunarvim/darkplus.nvim")
 	use("shaunsingh/nord.nvim")
+	use({ "projekt0n/github-nvim-theme" })
 	use("gruvbox-community/gruvbox")
+	use("shaunsingh/solarized.nvim")
 	use("folke/tokyonight.nvim")
 	use("rebelot/kanagawa.nvim")
 
@@ -77,7 +80,8 @@ use 'JoosepAlviste/nvim-ts-context-commentstring'
 	use("nvim-treesitter/nvim-treesitter", {
 		run = ":TSUpdate",
 	})
-  use("nvim-treesitter/playground")
+	use("nvim-treesitter/playground")
+	use("romgrk/nvim-treesitter-context")
 
 	use("mfussenegger/nvim-dap")
 	use("rcarriga/nvim-dap-ui")
@@ -90,7 +94,7 @@ use 'JoosepAlviste/nvim-ts-context-commentstring'
 	use("nvim-telescope/telescope-media-files.nvim")
 	use("ThePrimeagen/git-worktree.nvim")
 	use("ThePrimeagen/harpoon")
-  use("TimUntersberger/neogit")
+	use("TimUntersberger/neogit")
 	use("kyazdani42/nvim-web-devicons")
 	use("kyazdani42/nvim-tree.lua")
 	-- Automatically set up your configuration after cloning packer.nvim

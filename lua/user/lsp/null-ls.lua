@@ -16,7 +16,6 @@ null_ls.setup({
 		-- formatting.yapf,
 		formatting.stylua,
 		formatting.zigfmt,
-		diagnostics.flake8.with({ extra_args = { "--max-line-length=90" } }),
-		diagnostics.stylint,
+		diagnostics.flake8.with({ extra_args = { "--max-line-length=90", "--extend-ignore=E203" } }),
 	},
 })

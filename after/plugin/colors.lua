@@ -1,4 +1,4 @@
-vim.g.user_colorscheme = "kanagawa"
+vim.g.user_colorscheme = "gruvbox"
 
 function ColorMyPencils()
 	vim.g.gruvbox_contrast_dark = "hard"
@@ -31,7 +31,8 @@ function ColorMyPencils()
 	})
 
 	hl("LineNr", {
-		fg = "#5eacd3",
+		--[[ fg = "#5eacd3", ]]
+		fg = "#495057",
 	})
 
 	hl("netrwDir", {

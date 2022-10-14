@@ -12,11 +12,12 @@ local options = {
 	showmode = false, -- we don't need to see things like -- INSERT -- anymore
 	showtabline = 2, -- always show tabs
 	smartcase = true, -- smart case
+	guicursor = "",
 	smartindent = true, -- make indenting smarter again
 	splitbelow = true, -- force all horizontal splits to go below current window
 	splitright = true, -- force all vertical splits to go to the right of current window
 	swapfile = false, -- creates a swapfile
-	-- termguicolors = true,                    -- set term gui colors (most terminals support this)
+	termguicolors = true, -- set term gui colors (most terminals support this)
 	timeoutlen = 1000, -- time to wait for a mapped sequence to complete (in milliseconds)
 	undofile = true, -- enable persistent undo
 	updatetime = 300, -- faster completion (4000ms default)
@@ -35,6 +36,7 @@ local options = {
 	guifont = "monospace:h17", -- the font used in graphical neovim applications
 }
 
+vim.g.mapleader = " "
 vim.opt.shortmess:append("c")
 
 for k, v in pairs(options) do
